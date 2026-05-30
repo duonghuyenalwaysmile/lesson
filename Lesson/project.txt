@@ -1,0 +1,74 @@
+
+
+Url: https://bgyoluuagtvabsrkfniw.supabase.co
+anon: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJneW9sdXVhZ3R2YWJzcmtmbml3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODAwMzU4OTQsImV4cCI6MjA5NTYxMTg5NH0.TURq0AVfxOQ6RJ59pFCJ2gYxBXEei-O5OroMpGOwmi4
+
+
+
+BƯỚC 1
+
+Tạo tài khoản:
+GitHub Sign Up
+Dùng Gmail cá nhân.
+
+Bước 2 — Tạo Repository trên GitHub
+
+Sau khi đăng nhập GitHub:
+
+Bấm dấu + ở góc trên bên phải.
+Chọn:
+New repository
+Điền:
+Repository name
+Ví dụ:
+lesson-viewer
+Chọn:
+Public
+(Đừng lo, password và khóa thiết bị vẫn do Supabase quản lý. Sau này có thể chuyển sang Private nếu muốn.)
+Tick:
+Add a README file
+Bấm:
+Create repository
+Sau khi tạo xong, bạn sẽ thấy trang dạng:
+https://github.com/<tên-tài-khoản>/lesson-viewer
+Bước 3 — Upload file lên repository
+Trong repository lesson-viewer vừa tạo:
+Bấm nút:
+Add file
+Chọn:
+Upload files
+Kéo thả project
+Từ máy bạn, kéo vào trình duyệt:
+lesson/
+ ├── index.html
+ └── slides/
+      ├── slide1.png
+      ├── slide2.png
+      └── slide3.png
+Lưu ý rất quan trọng
+
+GitHub phải hiển thị:
+index.html
+slides/slide1.png
+slides/slide2.png
+slides/slide3.png
+Nếu nó hiện:
+lesson/index.html
+lesson/slides/...
+thì vẫn dùng được, nhưng lát nữa phải chỉnh đường dẫn.
+
+Tốt nhất là upload nội dung bên trong folder lesson, không upload nguyên folder lesson.
+Sau khi upload
+Kéo xuống cuối trang.
+Trong ô commit message để mặc định:
+
+Add project files
+Rồi bấm:
+Commit changes
+Kiểm tra kết quả
+
+Sau khi upload xong, ở trang repo bạn nên thấy:
+README.md
+index.html
+slides/
+
